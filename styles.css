@@ -21,6 +21,12 @@ p.abstract {
 h2 {
     padding-top: 2em
 }
+h3 {
+    /*for the pub page*/
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+
 
 #center_column_outer {
     background-color:rgba(255,255,255,0.85);
