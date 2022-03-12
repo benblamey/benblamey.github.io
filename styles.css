@@ -11,7 +11,7 @@ html {
 
 body {
     margin-top:0px;
-    margin-bottom:0px
+    margin-bottom:0px;
 }
 
 p.abstract {
@@ -20,16 +20,28 @@ p.abstract {
 h2 {
     padding-top: 2em
 }
+
 h3 {
     /*for the pub page*/
     padding-bottom: 0em;
-    margin-bottom: 0em;
+    margin-bottom: -.5em;
+    padding-top: 1.5em;
 }
 
 
-p {
-    -webkit-text-size-adjust: none;
-    text-size-adjust: none;
+@media only screen and (max-device-width: 600px) {
+    h3 {
+        -webkit-text-size-adjust: 210%;
+        text-size-adjust: 210%;
+    }
+    p {
+        -webkit-text-size-adjust: 180%;
+        text-size-adjust: 180%;
+    }
+    li {
+        -webkit-text-size-adjust: 180%;
+        text-size-adjust: 180%;
+    }
 }
 
 
