@@ -9,6 +9,33 @@ html {
     font-family: Trebuchet MS, Helvetica, sans-serif;
 }
 
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 62em) {
+    #twitter {
+        float: right;
+        margin-left: 1em;
+        margin-bottom: .5em;
+    }
+}
+
+@media screen and (max-width: 62em) {
+    /*
+    #twitter-widget-0 {
+        width: 50em !important;
+        height: 20em !important;
+    }
+     */
+    #twitter {
+        display: none;
+        text-align: center;
+        float: none;
+        margin-left: .7em;
+        margin-bottom: .5em;
+    }
+}
+
+
 body {
     margin-top:0px;
     margin-bottom:0px;
