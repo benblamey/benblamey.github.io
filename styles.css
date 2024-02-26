@@ -1,6 +1,8 @@
 html {
     /*background: url(vietnam.jpg) no-repeat left top fixed;*/
-    background-color: steelblue;
+    /*background-color: steelblue;*/
+    background-color: #eeeadd;
+
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -73,7 +75,8 @@ h3 {
 
 
 #center_column_outer {
-    background-color:rgba(255,255,255,0.85);
+
+    background-color:rgba(255,255,255,0.75);
     float:center;
     max-width:62em;
     margin: 0 auto
