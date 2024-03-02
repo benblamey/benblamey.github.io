@@ -75,7 +75,6 @@ h3 {
 
 
 #center_column_outer {
-
     background-color:rgba(255,255,255,0.75);
     float:center;
     max-width:62em;
@@ -85,4 +84,8 @@ h3 {
 #center_column_inner {
     padding-left: 2em; padding-right: 1.5em;
     padding-top: 1em; padding-bottom: 3em;
+}
+
+p.links {
+    font-size: 0.75em;
 }
